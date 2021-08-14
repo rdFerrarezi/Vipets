@@ -65,7 +65,7 @@ logo h2{
 /*---------Section Main----------*/
 
 section.main{
-    background-image: url('../img/bg.jpg');
+    background-image: url('bg.jpg');
     padding: 20px 0;
     min-height: 500px;
     background-position: center;
