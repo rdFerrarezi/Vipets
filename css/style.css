@@ -284,7 +284,8 @@ section.dipoimentos .depoimentos-chamada{
 
 .carrousel-single{
     width: 31.3%;
-    margin-right: 2%
+    margin-right: 2%;
+    text-align: center;
 }
 
 .carrousel-single-box{
@@ -299,10 +300,26 @@ section.dipoimentos .depoimentos-chamada{
     font-size: 14px;
 }
 
-.carrousel-single img{
-    max-width: 100%;
+.carrousel-single-box i{
+    color: #c9e3f5;
+    font-size: 19px;
+    padding: 0 8px;
 }
 
+.carrousel-single img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    display: inline;
+    margin: 10px 0;
+    object-fit: cover;
+    object-position: 70% 3px;
+    /* border: 2px solid black; */
+}
+
+.carrousel-single span{
+    color: #a5a5a5;
+}
 
 @media screen and (max-width: 768px) {
     .diferencial-single{
