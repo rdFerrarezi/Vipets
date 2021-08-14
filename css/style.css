@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.center{
+    max-width: 1100;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo{
+    color: #16507b;
+}
+
+logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 25px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color:#007bff
+}
+
+.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover{
+    background-color: #124265;
+    color: white;
+}
+
+/*---------Section Main----------*/
+
+section.main{
+    background-image: url('../img/bg.jpg');
+    padding: 20px 0;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_cta{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.main_cta h2{
+    color: #16507b;
+    font-size: 40px;
+}
+
+.main_cta p{
+    color: #000000;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main_cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 25px;
+    border-radius: 6px;
+}
+
+.diferencial-single i{ /*icone fontawesome*/
+    color: #124265;
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0px;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: #444444;
+}
+
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.conteudo-sobre i{
+    color: #007bff;
+}
+
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+}
+
+.conquista-single h2{
+    font-size: 30px;
+}
+
+.conquista-single img{
+    max-width: 100%;
+    filter: grayscale(100%);
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.conquista-single img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1,1.1);
+}
+
+.menu-items{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px solid blue;
+    display: block;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.menu-items.show{
+    opacity: 1;
+}
+
+.menu-items.hide{
+    opacity: 0;
+}
+
+.menu-items a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+section.sobre-pets{
+    padding: 40px 0;
+}
+
+.sobre-pets-img{
+    width: 50%;
+}
+
+.sobre-pets-img img{max-width: 100%;}
+
+.sobre-pets-content{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.sobre-pets-content h2{
+    color: #124265;
+    margin-bottom: 20px;
+}
+
+.sobre-pets-content p{
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.sobre-pets-content i{
+    color: #007bff;
+    margin-right: 5px;
+}
+
+section.depoimentos{
+    padding: 40px 0;
+}
+
+section.dipoimentos .depoimentos-chamada{
+    text-align: center;
+}
+
+.depoimentos-chamada h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.depoimentos-chamada p{
+    color: rgb(165, 165, 165);
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.carrousel{
+    display: flex;
+}
+
+.carrousel-single{
+    width: 31.3%;
+    margin-right: 2%
+}
+
+.carrousel-single-box{
+    padding: 10px;
+    background-color: #f3f9fd;
+    border-radius: 10px;
+}
+
+.carrousel-single-box p{
+    font-style: italic;
+    color: #4b4b4b;
+    font-size: 14px;
+}
+
+.carrousel-single img{
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    .menu-mobile{
+        width: 80%;
+        text-align: right;
+        display: block;
+    }
+
+    .menu-mobile i{
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
+    }
+
+    .conteudo-sobre p{width: 100%; margin: 20px 20px;}
+}
